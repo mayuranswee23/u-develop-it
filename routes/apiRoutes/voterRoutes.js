@@ -11,7 +11,7 @@ router.get('/voters', (req,res)=> {
             return;
         } 
             res.json({
-                message: 'success select voters',
+                message: 'success select all voters',
                 data: row
             });       
     });
